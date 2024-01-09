@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  padding: 30px;
+  font-family: roboto;
+}
+
+.top {
+  display: flex;
+  width: 80vw;
+  height: 50vh;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #dee0e3;
+  padding-bottom: 30px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 34vh;
+}
+.people {
+  height: 40vh;
+  width: 40vw;
+}
+
+input {
+  height: 35px;
+  width: 20vw;
+  padding: 10px;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+textarea {
+  height: 150px;
+  width: 20vw;
+  padding: 10px;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  font-size: 13px;
+}
+.addBtn {
+  background-color: #0ea5e9;
+  height: 30px;
+  width: 150px;
+  border-radius: 7px;
+  border: 0px;
+  color: #ffff;
+  font-size: 13px;
+}
+
+.bottom {
+  width: 80vw;
+}
+
+.count {
+  background-color: #0ea5e9;
+  background-size: cover;
+  padding: 8px;
+  border-radius: 2px;
+  color: #ffff;
+  font-size: 15px;
+}

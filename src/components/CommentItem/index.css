@@ -1,0 +1,93 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+
+.row {
+  display: flex;
+}
+.initial {
+  border-radius: 150px;
+  padding: 10px;
+  padding-left: 16px;
+
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  color: #ffff;
+  margin-top: 10px;
+}
+.time {
+  font-size: 12px;
+  align-self: center;
+  margin-left: 5px;
+  color: #94a3b8;
+}
+
+.card {
+  display: flex;
+  align-items: flex-start;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.likebtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  width: 60px;
+  justify-content: space-between;
+}
+
+.delbtn {
+  background-color: transparent;
+  border: none;
+}
+
+.bg {
+  margin-top: 30px;
+  border-bottom: 2px solid #cbd2d9;
+  background-size: cover;
+}
+.liked {
+  color: #0ea5e9;
+  font-size: 12px;
+}
+
+li {
+  list-style-type: none;
+}
